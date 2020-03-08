@@ -1,0 +1,14 @@
+
+<h3>Identification</h3>
+<hr>
+<label for = "username">Commercial </label>
+<input class="authentification-form" type="text" placeholder="username" autofocus="" [(ngModel)]="username"/>
+<br>
+<br>
+<label for="password">Mot de passe </label>
+<input class="authentification-form" type="text" placeholder="password" autofocus="" [(ngModel)]="password"/>
+<hr>
+
+<button class="registerbtn" (click)="authentificate()">Connexion</button>
+
+<p>{{message}}</p>
